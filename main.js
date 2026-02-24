@@ -1,6 +1,7 @@
 // Simplified logic for a minimalist experience
 
 document.addEventListener('DOMContentLoaded', () => {
+
     // Subtle parallax effect on background blobs
     document.addEventListener('mousemove', (e) => {
         const x = (e.clientX / window.innerWidth) - 0.5;
